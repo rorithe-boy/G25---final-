@@ -1,10 +1,5 @@
 """
 BETTER MINING - KHWEZI MINING - GROUP 25
-Beginner-friendly Streamlit project (fictional classroom data only).
-
-Each page is a short if/elif block. The helper functions below
-only read/save CSV files and calculate availability/risk/alerts.
-Run with: streamlit run app.py
 """
 from pathlib import Path
 import pandas as pd
@@ -39,11 +34,11 @@ if background_file.exists():
 
 # STEP 1: User accounts and permissions (classroom demonstration only)
 users = {
-    "admin": ("Admin123!", "Administrator"),
-    "safety": ("Safety123!", "Safety Officer"),
-    "engineer": ("Engineer123!", "Mining Engineer"),
-    "maintenance": ("Maint123!", "Maintenance Engineer"),
-    "manager": ("Manager123!", "Manager")
+    "admin": ("Rorisang@8", "Administrator"),
+    "safety": ("Fortune@5", "Safety Officer"),
+    "engineer": ("Oluga@3", "Mining Engineer"),
+    "maintenance": ("Group25!", "Maintenance Engineer"),
+    "manager": ("Tsaki@10", "Manager")
 }
 
 all_pages = ["Dashboard", "Workers", "Incidents", "Equipment", "Maintenance",
